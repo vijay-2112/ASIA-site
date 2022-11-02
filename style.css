@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    color: #010066 !important;
+}
+
+.clrh {
+    color: #010066 !important;
+    font-weight: 700 !important;
+
+}
+
+.j1 {
+    height: 100%;
+    background-size: cover;
+    background-image: url(images/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
+}
+
+.j2 {
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://www.moyens.net/wp-content/uploads/2022/08/GT-Answers-la-difference-entre-Internet-et-le-World-Wide.jpg);
+
+}
+
+.bci {
+    background-image: url(https://cal-asia.com/wp-content/uploads/2019/02/Banner1.jpg);
+    background-position: center
+}
+
+.font-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 580;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: normal;
+
+}
+
+.font-0 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hbc {
+    background-color: #010066;
+    color: white;
+}
+
+.hr1 {
+    border-bottom: 1px solid;
+    background-color: red;
+    color: red;
+    border-color: red;
+    width: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* dropdown */
+
+.dropdown-menu li {
+    position: relative
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -10px;
+}
+
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+}
+
+
+
+@media(max-width: 540px){
+    .topbar a img{
+        width:200px!important;
+        margin-left: 0!important;
+    }
+
+    .title{
+        font-size: 40px!important;
+    }
+}
